@@ -16,15 +16,14 @@
                         </ol>
 
                         <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img class="img-responsive img-full" src="img/slide-1.jpg" alt="">
+                        <div class="carousel-inner" style="left: 0px; top: 0px; height: 415px">
+                            <div class="item active" style="left: 0; top: 0px; width: 1125px; height: 398px">
+                                <img src="img/logo3.jpg" style="width: 1125px; height: 415px; margin-left: 0px" />&nbsp;</div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/home-slider-bptw.jpg" alt="" style="width: 1125px; height: 415px; margin-left: 0px" />&nbsp;> 
                             </div>
                             <div class="item">
-                                <img class="img-responsive img-full" src="img/slide-2.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
+                                <img class="img-responsive img-full" src="img/Capture.JPG" alt="" style="width: 1125px; height: 415px; margin-left: 0px" />&nbsp;>
                             </div>
                         </div>
 
@@ -39,11 +38,11 @@
                     <h2 class="brand-before">
                         <small>Welcome to</small>
                     </h2>
-                    <h1 class="brand-name">Business Casual</h1>
+                    <h1 class="brand-name">Centric Consulting</h1>
                     <hr class="tagline-divider">
                     <h2>
                         <small>By
-                            <strong>Start Bootstrap</strong>
+                            M</small><span style="font-weight: bold"><small>is 4200</small></span><small>
                         </small>
                     </h2>
                 </div>
@@ -67,12 +66,12 @@
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">Beautiful boxes
-                        <strong>to showcase your content</strong>
-                    </h2>
+                    <h2 class="intro-text text-center">centric&#39;s core values</h2>
                     <hr>
-                    <p>Use as many boxes as you like, and put anything you want in them! They are great for just about anything, the sky's the limit!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="img/CentricCoreValues1.jpg" style="width: 750px; height: 650px; text-align: center;" /></p>
+                    <p>&nbsp;</p>
                 </div>
             </div>
         </div>
