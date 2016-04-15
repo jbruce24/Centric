@@ -71,6 +71,7 @@ hr {
 .brand-name {
     margin: 0;
     font-size: 4em;
+    color: #000080;
 }
 
 .tagline-divider {
@@ -112,7 +113,7 @@ footer {
 footer p {
     margin: 0;
     padding: 50px 0;
-    color: #FFFFFF;
+    color: #800080;
 }
 
 @media screen and (min-width:768px) {
