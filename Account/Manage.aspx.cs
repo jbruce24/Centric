@@ -3,6 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using WebSite3;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
 
 public partial class Account_Manage : System.Web.UI.Page
 {
@@ -24,8 +27,9 @@ public partial class Account_Manage : System.Web.UI.Page
         return (user != null && user.PasswordHash != null);
     }
 
-    protected void Page_Load()
+    protected void Page_Load(object sender, EventArgs e)
     {
+        //invsibile.Text = HttpContext.Current.User.Identity.Name;
         if (!IsPostBack)
         {
             // Determine the sections to render

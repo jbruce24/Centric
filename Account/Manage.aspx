@@ -3,7 +3,9 @@
 <%@ Register Src="~/Account/OpenAuthProviders.ascx" TagPrefix="uc" TagName="OpenAuthProviders" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2><%: Title %>.</h2>
+   <div class="box">
+       
+     <h2><%: Title %></h2>
 
     <div>
         <asp:PlaceHolder runat="server" ID="successMessage" Visible="false" ViewStateMode="Disabled">
@@ -128,10 +130,10 @@
                     </ItemTemplate>
                 </asp:ListView>
 
-                <uc:openauthproviders runat="server" returnurl="~/Account/Manage" />
             </section>
 
         </div>
     </div>
+       </div>
 
 </asp:Content>

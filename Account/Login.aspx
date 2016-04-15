@@ -3,10 +3,13 @@
 <%@ Register Src="~/Account/OpenAuthProviders.ascx" TagPrefix="uc" TagName="OpenAuthProviders" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-    <h2><%: Title %>.</h2>
-
+    <div class="box"> 
+       
+      <h2><%: Title %></h2>
+    
     <div class="row">
-        <div class="col-md-8">
+
+        <div class="col-lg-12">
             <section id="loginForm">
                 <div class="form-horizontal">
                     <h4>Use a local account to log in.</h4>
@@ -54,9 +57,9 @@
 
         <div class="col-md-4">
             <section id="socialLoginForm">
-                <uc:openauthproviders runat="server" id="OpenAuthLogin" />
             </section>
         </div>
     </div>
+        </div>
 </asp:Content>
 
